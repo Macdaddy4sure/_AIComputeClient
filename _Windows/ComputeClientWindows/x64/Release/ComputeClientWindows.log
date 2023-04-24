@@ -1,0 +1,12 @@
+﻿  ComputeClientWindows.cpp
+E:\Visual Studio\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(703,5): error MSB6003: The specified task executable "CL.exe" could not be run. System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\_AugmentedIntelligence\_ComputeClient\_Linux\ComputeClientLinux\x64\Release\ComputeC.78d56fcf.tlog\CL.write.1.tlog'.
+E:\Visual Studio\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(703,5): error MSB6003:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+E:\Visual Studio\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(703,5): error MSB6003:    at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+E:\Visual Studio\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(703,5): error MSB6003:    at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+E:\Visual Studio\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(703,5): error MSB6003:    at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+E:\Visual Studio\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(703,5): error MSB6003:    at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+E:\Visual Studio\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(703,5): error MSB6003:    at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+E:\Visual Studio\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(703,5): error MSB6003:    at Microsoft.Build.Utilities.CanonicalTrackedOutputFiles.SaveTlog(DependencyFilter includeInTLog)
+E:\Visual Studio\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(703,5): error MSB6003:    at Microsoft.Build.CPPTasks.CL.PostExecuteTool(Int32 exitCode)
+E:\Visual Studio\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(703,5): error MSB6003:    at Microsoft.Build.CPPTasks.TrackedVCToolTask.ExecuteTool(String pathToTool, String responseFileCommands, String commandLineCommands)
+E:\Visual Studio\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(703,5): error MSB6003:    at Microsoft.Build.Utilities.ToolTask.Execute()
